@@ -11,6 +11,8 @@ use Cake\View\StringTemplateTrait;
  *
  * @property \Cake\View\Helper\HtmlHelper $Html
  * @property \Cake\View\Helper\UrlHelper $Url
+ * 
+ * @deprecated version 4.0.0 Use BsUtils.MenuHelper instead
  */
 class MenuLteHelper extends Helper
 {

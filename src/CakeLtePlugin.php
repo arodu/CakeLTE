@@ -30,6 +30,7 @@ class CakeLtePlugin extends BasePlugin
     public function bootstrap(PluginApplicationInterface $app): void
     {
         $app->addPlugin('BootstrapUI');
+        $app->addPlugin('BsUtils');
 
         Configure::write('CakeLte.plugin-path', $this->getPath());
     }
@@ -51,6 +52,7 @@ class CakeLtePlugin extends BasePlugin
             function (RouteBuilder $builder): void {
                 // Add custom routes here
                 $builder->connect('/debug', ['controller' => 'Pages', 'action' => 'debug']);
+                $builder->connect('/sample', ['controller' => 'Pages', 'action' => 'sample']);
             }
         );
         parent::routes($routes);
