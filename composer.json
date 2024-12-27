@@ -4,7 +4,7 @@
   "type": "cakephp-plugin",
   "license": "MIT",
   "require": {
-    "almasaeed2010/adminlte": "v4.0.0-beta2",
+    "almasaeed2010/adminlte": "v4.0.0-beta3",
     "cakephp/cakephp": "^5.0",
     "friendsofcake/bootstrap-ui": "^5.0"
   },
