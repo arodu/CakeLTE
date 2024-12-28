@@ -43,16 +43,16 @@ trait CakeLteTrait
                 'divider' => '<li><hr class="dropdown-divider"></li>',
 
                 'menuContainer' => '<ul class="nav sidebar-menu flex-column" data-lte-toggle="treeview" role="menu" data-accordion="false">{{items}}</ul>',
-                'menuItem' => '<li class="nav-item{{class}}{{dropdownOpenClass}}">{{text}}{{nest}}</li>',
-                'menuItemDisabled' => '<li class="nav-item"><a class="nav-link disabled" aria-disabled="true">{{icon}}<p>{{text}}</p></a></li>',
-                'menuItemLink' => '<a href="{{url}}" class="nav-link{{class}}{{activeClass}}">{{icon}}<p>{{text}}{{append}}</p></a>',
-                'menuItemLinkNest' => '<a href="{{url}}" class="nav-link{{class}}{{activeClass}}">{{icon}}<p>{{text}}{{append}}<i class="nav-arrow bi bi-chevron-right"></i></p></a>',
+                'menuItem' => '<li class="nav-item{{class}}{{dropdownOpenClass}}"{{attrs}}>{{text}}{{nest}}</li>',
+                'menuItemDisabled' => '<li class="nav-item"><a class="nav-link disabled" aria-disabled="true"{{attrs}}>{{icon}}<p>{{text}}</p></a></li>',
+                'menuItemLink' => '<a href="{{url}}" class="nav-link{{class}}{{activeClass}}"{{attrs}}>{{icon}}<p>{{text}}{{append}}</p></a>',
+                'menuItemLinkNest' => '<a href="{{url}}" class="nav-link{{class}}{{activeClass}}"{{attrs}}>{{icon}}<p>{{text}}{{append}}<i class="nav-arrow bi bi-chevron-right"></i></p></a>',
 
                 'dropdownContainer' => '<ul class="nav nav-treeview">{{items}}</ul>',
-                'dropdownItem' => '<li class="nav-item">{{text}}{{nest}}</li>',
-                'dropdownItemDisabled' => '<li class="nav-item">{{text}}{{nest}}</li>',
-                'dropdownItemLink' => '<a href="{{url}}" class="nav-link{{activeClass}}">{{icon}}<p>{{text}}{{append}}</p></a>',
-                'dropdownItemLinkNest' => '<a href="{{url}}" class="nav-link{{activeClass}}">{{icon}}<p>{{text}}{{append}}<i class="nav-arrow bi bi-chevron-right"></i></p></a>',
+                'dropdownItem' => '<li class="nav-item"{{attrs}}>{{text}}{{nest}}</li>',
+                'dropdownItemDisabled' => '<li class="nav-item"{{attrs}}>{{text}}{{nest}}</li>',
+                'dropdownItemLink' => '<a href="{{url}}" class="nav-link{{activeClass}}"{{attrs}}>{{icon}}<p>{{text}}{{append}}</p></a>',
+                'dropdownItemLinkNest' => '<a href="{{url}}" class="nav-link{{activeClass}}"{{attrs}}>{{icon}}<p>{{text}}{{append}}<i class="nav-arrow bi bi-chevron-right"></i></p></a>',
             ],
         ]);
     }

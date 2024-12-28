@@ -1,5 +1,51 @@
-<ul class="navbar-nav">
-    <li class="nav-item"> <a class="nav-link" data-lte-toggle="sidebar" href="#" role="button"> <i class="bi bi-list"></i> </a> </li>
-    <li class="nav-item d-none d-md-block"> <a href="#" class="nav-link">Home</a> </li>
-    <li class="nav-item d-none d-md-block"> <a href="#" class="nav-link">Contact</a> </li>
-</ul> <!--end::Start Navbar Links--> <!--begin::End Navbar Links-->
+<?php
+
+/**
+ * @var \App\View\AppView $this
+ */
+
+$headerMenu = [
+    [
+        'label' => '<i class="bi bi-list"></i>',
+        'url' => '#',
+        'data-lte-toggle' => 'sidebar',
+        'role' => 'button',
+    ],
+    [
+        'label' => __('Home'),
+        'url' => '/',
+        'container' => [
+            'class' => 'd-none d-md-block',
+        ]
+    ],
+    [
+        'label' => __('Contact'),
+        'url' => '#',
+        'container' => [
+            'class' => 'd-none d-md-block',
+        ]
+    ],
+    'debug' => [
+        'label' => __('Debug'),
+        'url' => 'cakelte/debug',
+        'container' => [
+            'class' => 'd-none d-md-block',
+        ]
+    ],
+    'theme' => [
+        'label' => __('Theme'),
+        'url' => 'adminlte',
+        'container' => [
+            'class' => 'd-none d-md-block',
+        ]
+    ],
+    'logout' => [
+        'label' => __('Logout'),
+        'url' => '#',
+        'container' => [
+            'class' => 'd-none d-md-block',
+        ]
+    ],
+];
+
+echo $this->Menu->render($headerMenu, ['menuClass' => 'navbar-nav']);
