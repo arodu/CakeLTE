@@ -20,12 +20,8 @@ $menu = [
     ],
     'simpleLink' => [
         'label' => __('Simple Link'),
-
-
-        'badge' => ['text' => __('New'), 'color' => 'danger'],
-
-
         'url' => ['controller' => 'Pages', 'action' => 'display', 'home', 'plugin' => false],
+        'append' => '<span class="nav-badge badge text-bg-danger me-3">New</span>',
         //'icon' => 'fas fa-th text-danger',
         'show' => function () {
             // logic condition to show item, return a bool
@@ -34,7 +30,7 @@ $menu = [
     ],
     'debug' => [
         'label' => __('Debug'),
-        'url' => 'cake_lte/debug',
+        'url' => 'cakelte/debug',
         //'icon' => 'fas fa-th text-danger',
     ],
     'theme' => [
