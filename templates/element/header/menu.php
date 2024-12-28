@@ -18,13 +18,6 @@ $headerMenu = [
             'class' => 'd-none d-md-block',
         ]
     ],
-    [
-        'label' => __('Contact'),
-        'url' => '#',
-        'container' => [
-            'class' => 'd-none d-md-block',
-        ]
-    ],
     'debug' => [
         'label' => __('Debug'),
         'url' => 'cakelte/debug',
