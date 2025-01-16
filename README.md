@@ -1,5 +1,10 @@
 # CakeLTE: AdminLTE plugin for CakePHP 5.x
 
+[![Latest Version](https://img.shields.io/github/v/release/arodu/cakelte.svg?style=for-the-badge)](https://github.com/arodu/cakelte/releases)
+[![Packagist License](https://img.shields.io/packagist/l/arodu/cakelte?style=for-the-badge)](LICENSE.md)
+[![GitHub Repo stars](https://img.shields.io/github/stars/arodu/cakelte?style=for-the-badge)](https://github.com/arodu/cakelte/stargazers)
+[![Total Downloads](https://img.shields.io/packagist/dt/arodu/cakelte.svg?style=for-the-badge)](https://packagist.org/packages/arodu/cakelte)
+
 If it's helpful you can buy me a coffee, thanks!
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H3XTSGP)
